@@ -29,7 +29,17 @@ Read the three blog posts that follow:
 * [Asking better questions](https://dev.to/josefine/asking-better-questions-2e2k)
 * [Your Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
 
-Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth?
+
+## Blog Reflections ✍️✍️✍️
+
+- 20 minute rule: allow yourself to be "stuck" for 20 minutes when you reach an obstacle. If by then you haven't found your answer through googling or your own trial and error, its probably time to ask for help.
+  - Sometimes I feel I'm too hasty in asking questions. Will definitely put this rule to the test.
+- pay attention to timing: if you can continue your work without getting an answer to your question, then the question can wait.
+- **This is not the time to pretend** ask follow up questions if needed and make sure you understand the answer given.
+- 
+
+
 
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 
@@ -44,7 +54,7 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 ### Open your local copy of backend_mod_1_prework
 
-Using your terminal, open your local copy of the forked repository you created during setup.  To do this, you will need to use the terminal command `cd` to enter the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. 
+Using your terminal, open your local copy of the forked repository you created during setup.  To do this, you will need to use the terminal command `cd` to enter the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository.
 
 ### If statement and Conditional Lessons
 
@@ -68,7 +78,7 @@ Using your terminal, open your local copy of the forked repository you created d
 
     _*Note*: In some of these lessons, the author refers to methods as functions. They are interchangable here, but at Turing, we will be use the word `method`._
 
-    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header. 
+    - [ ] [Methods](https://launchschool.com/books/ruby/read/methods) from LaunchSchool. Work up to the `obj.method or method(obj)` header.
 
     - [ ] [Intro to Methods](https://learnrubythehardway.org/book/ex18.html) from Learn Ruby the Hard Way.
 
