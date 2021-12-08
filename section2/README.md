@@ -37,7 +37,7 @@ Reflect on these posts, and how you feel about asking questions (specifically, t
   - Sometimes I feel I'm too hasty in asking questions. Will definitely put this rule to the test.
 - pay attention to timing: if you can continue your work without getting an answer to your question, then the question can wait.
 - **This is not the time to pretend** ask follow up questions if needed and make sure you understand the answer given.
-- 
+-
 
 
 
@@ -60,9 +60,9 @@ Using your terminal, open your local copy of the forked repository you created d
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [What If?](https://learnrubythehardway.org/book/ex29.html) from Learn Ruby the Hard Way.
+    - [x] [What If?](https://learnrubythehardway.org/book/ex29.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Else and If](https://learnrubythehardway.org/book/ex30.html) from Learn Ruby the Hard Way.
+    - [x] [Else and If](https://learnrubythehardway.org/book/ex30.html) from Learn Ruby the Hard Way.
 
     - [ ] [Making Decisions](https://learnrubythehardway.org/book/ex31.html) from Learn Ruby the Hard Way.
 
