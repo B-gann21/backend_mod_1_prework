@@ -50,6 +50,10 @@ elsif start == "2"
       puts "The darkness grows ever thicker until you can't even see your own hand."
       puts "You hear a thousand little feet approaching... RIP #{name}"
     end
+  else
+    puts "Dozens of bright yellow eyes open up around you."
+    puts "You have awoken a colony of bloodthirsty bats."
+    puts "RIP #{name}"
   end
 else
   puts "You are far too afraid to enter the maze."
