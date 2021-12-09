@@ -35,7 +35,7 @@ else
 end
 ```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
-
+- There is other types of functions that use conditionals, i believe in ruby one of these functions is `while`
 ### Methods
 
 1. In your own words, what is the purpose of a method?
