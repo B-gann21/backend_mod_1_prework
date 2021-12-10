@@ -10,13 +10,33 @@
 - I do _not_ learn from other peoples mistakes. I have a bad habit of tuning out of the slack channel until the day of class, or not paying attention to other's questions in class: I now realize that by doing so, I am missing out on new learning opportunities.
 
 1. What is a Hash, and how is it different from an Array?
+- A hash is also a list, but each object in a has is given its own variable or "key" to call from.
+  - This is different form an array because each object in an array is called using its numeric position in the list
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-
+```
+pet_store = {
+  "Dog toys" => 50,
+  "Dog beds" => 75,
+  "Cat toys" => 100,
+  "Cat beds" => 80
+}
+```
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
-
+- `puts states["IA"]`
 1. With the same hash above, how would we get all the keys?  How about all the values?
-
+- `puts states.keys`
+- `puts states.values`
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
-
+- a hash is better used to organize multiple data sets into one list, rather than creating a new array for each one.
+- Take a movie theatre for example: An array of movies would just simply be a list of movie names like `movies = ["The Avengers", "The Exorcist", "Spongebob: Fish out of Water"]`. This is a nice list but it doesn't provide much info about each movie.
+  - A hash could be used to store not only the movie, but its rating as well *in the same object*:
+  ```
+  movies = {
+    "The Avengers" => "PG-13",
+    "The Exorcist" => "R",
+    "Spongebob: Fish out of Water" => "G"
+  }
+  ```
 1. What questions do you still have about hashes?
+- I'm not entirely sure when to use `[]`, `{}`, or `()` to tell ruby what key I'm trying to pull from a hash. 
