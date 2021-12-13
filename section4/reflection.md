@@ -15,7 +15,7 @@
 - a class is a way to define objects and assign certain behaviors or functions to each object in said class.
 - in ruby a few classes with their own functions are already made up for us: string, number, array
 1. What is an attribute of a Class?
-- an attribute is the variable name that you give when adding a new object to a class
+- an attribute is the variables inside of a class that describe what different values you want to assign to each object
 1. What is behavior of a Class?
 - a behavior is (one of) the function(s) you put inside a class to decide what every object in that class will do.
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
