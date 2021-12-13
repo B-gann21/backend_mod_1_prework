@@ -12,8 +12,8 @@ if start == "1"
 
   if direction == "1"
     puts "It was a trap, the screams came from an ethereal beast."
-    puts "You feel its thousand hands pulling you towards the sky..."
-    puts "And then you feel nothing."
+    puts "You feel its cold hands pulling you towards the sky..."
+    puts "And then you feel nothing. RIP #{name}"
   elsif direction == "2"
     puts "You take a few steps into the darkness..."
     puts "And emerge into a small clearing. Inside it is a woman in a white dress. Do you..."
@@ -48,7 +48,7 @@ elsif start == "2"
       puts "You awaken in your bed. It was all just a dream!!"
     else
       puts "The darkness grows ever thicker until you can't even see your own hand."
-      puts "You hear a thousand little feet approaching... RIP #{name}"
+      puts "You hear heavy breathing approaching... and then you hear a loud thump. RIP #{name}"
     end
   else
     puts "Dozens of bright yellow eyes open up around you."
