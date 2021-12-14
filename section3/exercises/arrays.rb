@@ -23,7 +23,6 @@ puts animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
-count = 0
 
 puts animals.count
 
@@ -88,4 +87,4 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 
 # 1: Old School Runescape: An adventure game with thousands of different items to collect. I assume each item has its own spot in an array.
 # 2: Old School Runescape: Each player has his own bank, which can store up to 360 different item slots. This is a limited array that players can access to store items.
-# 3: HBO Max: A large array of thousands of movies and tv shows. 
+# 3: HBO Max: A large array of thousands of movies and tv shows.

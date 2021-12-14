@@ -5,27 +5,27 @@
 
 # Example: Write code that prints a hash holding grocery store inventory:
 foods = {apples: 23, grapes: 507, eggs: 48}
-p foods
+puts foods
 # Write code that prints a hash holding zoo animal inventory:
 zoo = {lions: 8, zebras: 6, elephants: 4}#YOUR CODE HERE
-
+puts zoo
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p zoo.keys
+puts zoo.keys
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p zoo.values
+puts zoo.values
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p zoo.first()
+puts zoo.first()
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 # YOUR CODE HERE
 zoo.store("kangaroos", 5)
-p zoo
+puts zoo
 
 #-------------------
 # Part 2: Email
@@ -37,26 +37,25 @@ p zoo
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-emails = {
-  "Priority list" => "Jeff, Rachel, Harry, Louis",
-  "Ignore list" => "Donny, Lenny, Carol, Angela",
-  "Work orders" => "John, Ronald, Rebecca, Alex",
-  "Customer Service" => "Joseph, Albert, Fred, Dan",
-  "Custodial" => "Michael, Russel, Mark, Nick",
-  "Security" => "Ken, Trisha, Pat, Gerald"
+email = {
+  "Date & Time" => "9/18/2021 @4:15 PM",
+  "From" => "janedoe@example.com",
+  "To" => "jondoe@example.com",
+  "Files attached" => 4,
+  "Subject" => "Sam's Graduation!!"
 }
 # Write code that prints your email hash to the terminal.
-p emails
+puts email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
-p emails.keys
+puts email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
-p emails.values
+puts email.values
 
 #-------------------
 # Part 3: Many Emails - OPTIONAL EXTENSION
@@ -106,18 +105,27 @@ puts posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 # key-value pairs you used in your email Object above.
 # Then, log the email Array to the console.
-email_filters = [
+emails = [
   {
-    "Priority list" => "Jeff, Rachel, Harry, Louis",
-    "Ignore list" => "Donny, Lenny, Carol, Angela"
+    "Date & Time" => "10/31/2021 @9:15 PM",
+    "From" => "janedoe@example.com",
+    "To" => "jondoe@example.com",
+    "Files attached" => 7,
+    "Subject" => "Holloween party"
   },
   {
-    "Work orders" => "John, Ronald, Rebecca, Alex",
-    "Customer Service" => "Joseph, Albert, Fred, Dan"
+    "Date & Time" => "9/17/2021 @5:15 PM",
+    "From" => "popeyes@example.com",
+    "To" => "jondoe@example.com",
+    "Files attached" => 1,
+    "Subject" => "Your Popeye's receipt"
   },
   {
-    "Custodial" => "Michael, Russel, Mark, Nick",
-    "Security" => "Ken, Trisha, Pat, Gerald"
+    "Date & Time" => "10/29/2021 @9:15 AM",
+    "From" => "jondoe@example.com",
+    "To" => "janedoe@example.com",
+    "Files attached" => 0,
+    "Subject" => "Halloween reminder"
   }
 ]
-p email_filters
+puts emails

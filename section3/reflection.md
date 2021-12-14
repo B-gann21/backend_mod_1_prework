@@ -7,11 +7,11 @@
 
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 - I definitely already persist through mistakes and failure when it comes to coding: in the section 2 exercises I wrote a small adventure game called haunted_maze.rb and it was very difficult. I had many syntax errors I had to fix and even more infinite loops to end but I continued to execute the code in my terminal time and time again until it worked.
-- I do _not_ learn from other peoples mistakes. I have a bad habit of tuning out of the slack channel until the day of class, or not paying attention to other's questions in class: I now realize that by doing so, I am missing out on new learning opportunities.
+- I have a problem with _not_ trying to learn from other peoples mistakes. Tuning out of the slack channel until the day of class, or not paying attention to other's questions in class are 2 habits of mine: I now realize that by doing so, I am missing out on new learning opportunities.
 
 1. What is a Hash, and how is it different from an Array?
-- A hash is also a list, but each object in a has is given its own variable or "key" to call from.
-  - This is different form an array because each object in an array is called using its numeric position in the list
+- A hash is also a list, but each object in a hash is given its own variable or "key" to call from.
+  - This is different from an array because each object in an array is called using its numeric position in the list
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 ```
@@ -39,4 +39,4 @@ pet_store = {
   }
   ```
 1. What questions do you still have about hashes?
-- I'm not entirely sure when to use `[]`, `{}`, or `()` to tell ruby what key I'm trying to pull from a hash. 
+- I'm not entirely sure when to use `[]`, `{}`, or `()` to tell ruby what key I'm trying to pull from a hash.
