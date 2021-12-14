@@ -11,12 +11,15 @@ class Dog
     @age    = age
     @hungry = true
   end
+
   def bark
     p "woof!"
   end
+
   def play
     @hungry = true
   end
+
   def eat
     @hungry = false
   end

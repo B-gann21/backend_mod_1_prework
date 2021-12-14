@@ -11,14 +11,17 @@ class Burrito
     @base     = base
     @toppings = toppings
   end
+
   def add_topping(topping)
     toppings.append(topping)
     puts "You have added #{topping} to your burrito."
   end
+
   def remove_topping(topping)
     toppings.delete(topping)
     puts "You have removed #{topping} from your burrito."
   end
+  
   def change_protein(new_protein)
     @protein = (new_protein)
     puts "You have swapped your protean out for #{new_protein}."

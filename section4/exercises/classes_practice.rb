@@ -4,6 +4,7 @@ class Student
   def introduction(target)
     puts "Hi #{target}, I'm #{first_name + " " + last_name}!"
   end
+  
   def fav_food(food)
     puts "#{first_name}'s favorite food is #{food}."
   end
