@@ -1,3 +1,4 @@
+# simple methods created to perform basic math and tell the user the steps along the way.
 def add(a, b)
   puts "ADDING #{a} + #{b}"
   return a + b
@@ -29,7 +30,6 @@ iq = divide(100, 2)
 puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
 
 
-# A puzzle for the extra credit, type it in anyway.
 puts "Here is a puzzle."
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))

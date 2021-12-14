@@ -1,10 +1,12 @@
+# this is my little text horror game i made based off the ruby in 100 mins exercise that teaches how to put if statements inside of other if statements.
+# i am pretty proud of this code, please comment if you find any bugs or convention mistakes!
 puts "What is your name?"
 name = $stdin.gets.chomp
 puts "Hello, #{name}. Today we will be going through the haunted maze together."
 puts "Do you want to go through entrance 1 or entrance 2?"
 start = $stdin.gets.chomp
 
-if start == "1"
+if start == "1" 
   puts "After a few steps, you come to an intersection. You can turn left or right."
   puts "1. Turn left (you can hear screams that way...)"
   puts "2. Turn right (that path is very dark...)"
