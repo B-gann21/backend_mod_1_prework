@@ -1,6 +1,6 @@
 # Mod 0 Final Prep
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
-
+ 
 ### Final Technical Prep
 
 You've learned a ton about some of the core foundations of Ruby! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1!
