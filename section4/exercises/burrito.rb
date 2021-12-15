@@ -24,7 +24,7 @@ class Burrito
   
   def change_protein(new_protein)
     @protein = (new_protein)
-    puts "You have swapped your protean out for #{new_protein}."
+    puts "You have swapped your protein out for #{new_protein}."
   end
 end
 
